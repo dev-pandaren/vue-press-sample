@@ -1,16 +1,16 @@
 {
   "name": "vue-press",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://github.com/dev-pandaren/vue-press-sample",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev src",
-    "build": "vuepress build src"
+      "start": "vuepress dev src",
+      "deploy": "npm run build && npm run build-gh-pages",
+      "build": "vuepress build src",
+      "build-gh-pages": "gh-pages -d src/.vuepress/dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+      "gh-pages": "^3.1.0",
+      "vuepress": "^1.5.3"
   }
 }
