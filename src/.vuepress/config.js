@@ -39,7 +39,7 @@ module.exports = {
 		nav: NAV,
 		sidebar: SIDEBAR
 	},
-	base: '/VuePress/',
+	base: '/vue-press-sample/',
 	head: [
 		['link', { rel: 'icon', href: '/favicon.svg' }],
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
