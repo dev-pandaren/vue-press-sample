@@ -1,6 +1,7 @@
 
 # Ссылки
 - [Черновик статьи](https://gist.github.com/anton-sergeenkov/a945fa359da2c19a9154c2153ead0197)
+- [Песочница на Habr](https://habr.com/ru/sandbox/160034/)
 - [Статья на Habr](https://habr.com/ru/post/580894/)
 
 # Разработка документации на VuePress
